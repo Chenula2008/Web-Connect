@@ -81,8 +81,8 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const sid = `*DARKBOT V1 [This bot is owned by Chenula Official]*\n\n✍️ *Copy this Session ID and paste it in the config.js file where it says Session ID.(මෙම Session ID එක Copy කරලා config.js file එකෙ Session ID කියන තැනට Paste කරන්න.)*\n\n*If you have any questions, send me a message.(ඔයාට මොනහරි ප්‍රශ්ණයක් අවොත් මට Message එකක් දන්න.)*\n\n🔗 https://wa.me/+94719102008?text=*Hey+Chenula*+😇❤️\n\n*I request you to subscribe my YouTube channel.*\n\n🔗 http://www.youtube.com/@ChenulaOfficial\n\n*You Can Join My Whatsapp Channel*\n\n🔗 https://whatsapp.com/channel/0029VaIq5RO8F2pFtf7cQk0M\n\n*You Can Join My Telegram Channels*\n\n🔗 https://t.me/chenulaofficial\n\n❤️ I thank you for choosing my BOT.(මම ඔයාලට ස්තූති කරනවා මගෙ BOT තෝර ගත්තට.) ❤️`;
+            const mg = `⚠️ *Do not share this code to anyone* ⚠️`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
                 url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
