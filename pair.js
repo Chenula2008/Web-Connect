@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*CHENULA DARKBOT V1 [This bot is owned by Chenula Official]*\n\n✍️ *Copy this Session ID and paste it in the config.js file where it says Session ID.(මෙම Session ID එක Copy කරලා config.js file එකෙ Session ID කියන තැනට Paste කරන්න.)*\n\n*If you have any questions, send me a message.(ඔයාට මොනහරි ප්‍රශ්ණයක් අවොත් මට Message එකක් දන්න.)*\n\n🔗 https://wa.me/+94719102008?text=*Hey+Chenula*+😇❤️\n\n*I request you to subscribe my YouTube channel.*\n\n🔗 http://www.youtube.com/@ChenulaOfficial\n\n*You Can Join My Whatsapp Channel*\n\n🔗 https://whatsapp.com/channel/0029VaIq5RO8F2pFtf7cQk0M\n\n*You Can Join My Telegram Channels*\n\n🔗 https://t.me/chenulaofficial\n\n❤️ I thank you for choosing my BOT.(මම ඔයාලට ස්තූති කරනවා මගෙ BOT තෝර ගත්තට.) ❤️`;
-            const mg = `⚠️ *Do not share this code to anyone* ⚠️`;
+            const sid = `*CHENULA DARKBOT V1 [This bot is owned by Chenula Official]*\n\n✍️ *Copy this Session ID and paste it in the config.js file where it says Session ID.(මෙම Session ID එක Copy කරලා config.js file එකෙ Session ID කියන තැනට Paste කරන්න.)*\n\n*If you have any questions, send me a message.(ඔයාට මොනහරි ප්‍රශ්ණයක් අවොත් මට Message එකක් දන්න.)*\n\n🔗 https://wa.me/+94719102008?text=*Hey+Chenula*+😇❤️\n\n*I request you to Subscribe My YouTube Channel.*\n\n🔗 http://www.youtube.com/@ChenulaOfficial\n\n*You Can Join My Whatsapp Channel*\n\n🔗 https://whatsapp.com/channel/0029VaIq5RO8F2pFtf7cQk0M\n\n*You Can Join My Telegram Channels*\n\n🔗 https://t.me/chenulaofficial\n\n❤️ I thank you for choosing my BOT.(මම ඔයාලට ස්තූති කරනවා මගෙ BOT තෝර ගත්තට.) ❤️`;
+            const mg = `⚠️ *Do not share this code to anyone* ⚠️\n\n> CHENULA DARKBOT V1`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://raw.githubusercontent.com/Chenula2008/BOT_IMAGE/refs/heads/main/CHENULA%20DARKBOT%20V1.webp",
               },
               caption: sid,
             });
